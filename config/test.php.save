@@ -1,0 +1,24 @@
+<?php
+
+	class Databse {
+
+	private $host = "localhost";
+	private $db_name = "users";
+	private $username = "root";
+	private $paswword = "root";
+	private $conn;
+
+	public function connect() {
+		$this->conn = null;
+					
+		
+	}catch(PDOException $err){
+
+		echo "Connection Error: " . $err->getMessage();
+	}
+	return $this conn;
+
+	}
+
+
+	}
