@@ -18,3 +18,6 @@ sudo nano /etc/php/7.2/apache2/php.ini
 ```bash
 sudo service apache2 restart
 ```
+
+
+- https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-18-04
